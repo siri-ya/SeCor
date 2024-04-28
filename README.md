@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
-We have updated processed data in the './data' folder and the source code to generate these data in './prepare' folder. You can use these code to transfer Gowalla or some other POI recommendation dataset. Due to the large file limit of GitHub, we cannot directly upload the train set of TKY and NYC, and the Gowalla dataset. We will update all of them in other link for more convenience after acceptance.
+We have updated processed data in the './data' folder and the source code to generate these data in './prepare' folder. You can use these code to transfer Gowalla or some other POI recommendation dataset. Due to the large file limit of GitHub, we cannot directly upload the train set of TKY and the Gowalla dataset. We will update all of them in other link for more convenience after acceptance.
 
 ## First Stage Tuning
 
@@ -46,5 +46,4 @@ Inference stage generates result file according to the setting in 'evaluate.sh'.
 bash ./shell/evaluate.sh <CUDA_ID> <OUTPUT_DIR> <DATASET>
 ```
 
-The output_dir should be same as the setting in the 'instruct.sh'."# SeCor" 
-"# SeCor" 
+The output_dir should be same as the setting in the 'instruct.sh'.
